@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "5f680b9ff87c134b1cdfbda1",
+    "name": "AdminCity",
+    "description": "Can create/delete a depo. Can create\\delete users of all roles ( except for SuperAdmin and AdminCountry ), view information about depos, users,  actions on containers",
+    "type": "admincity",
+    "createdAt": "2020-09-21T02:10:39.826Z",
+    "updatedAt": "2020-10-15T15:21:06.344Z",
+    "__v": 0,
+    "id": "5f680b9ff87c134b1cdfbda1",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  },
+  {
+    "_id": "5f680980f87c134b1cdfbd36",
+    "name": "AdminCountry",
+    "description": "Can create/delete a city, depo. Can create\\delete users of all roles ( except for SuperAdmin ), view information about depos, users,  actions on containers",
+    "type": "admincountry",
+    "createdAt": "2020-09-21T02:01:36.696Z",
+    "updatedAt": "2020-10-15T15:21:11.970Z",
+    "__v": 0,
+    "id": "5f680980f87c134b1cdfbd36",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  },
+  {
+    "_id": "5f680c7bf87c134b1cdfbe0c",
+    "name": "AdminDepo",
+    "description": "Can create/delete a depot division. Can create\\delete workers a depot, view information about depot and actions on containers",
+    "type": "admindepo",
+    "createdAt": "2020-09-21T02:14:19.077Z",
+    "updatedAt": "2020-10-15T15:21:17.624Z",
+    "__v": 0,
+    "id": "5f680c7bf87c134b1cdfbe0c",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  },
+  {
+    "_id": "5f50883a623f6c74ea1aaf69",
+    "name": "Authenticated",
+    "description": "Default role given to authenticated user.",
+    "type": "authenticated",
+    "createdAt": "2020-09-03T06:07:54.673Z",
+    "updatedAt": "2020-10-15T15:21:22.182Z",
+    "__v": 0,
+    "id": "5f50883a623f6c74ea1aaf69",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  },
+  {
+    "_id": "5f50883a623f6c74ea1aaf6a",
+    "name": "Public",
+    "description": "Default role given to unauthenticated user.",
+    "type": "public",
+    "createdAt": "2020-09-03T06:07:54.701Z",
+    "updatedAt": "2020-10-15T15:22:06.244Z",
+    "__v": 0,
+    "id": "5f50883a623f6c74ea1aaf6a",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  },
+  {
+    "_id": "5f68083ff87c134b1cdfbccb",
+    "name": "SuperAdmin",
+    "description": "Can create/delete a country, city, depo. Can create\\delete users of all roles, view all information  ",
+    "type": "super_admin",
+    "createdAt": "2020-09-21T01:56:15.126Z",
+    "updatedAt": "2020-10-15T15:21:37.412Z",
+    "__v": 0,
+    "id": "5f68083ff87c134b1cdfbccb",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  },
+  {
+    "_id": "5f5865ef0a43ee0c6a1f135a",
+    "name": "admin",
+    "description": "",
+    "type": "admin",
+    "createdAt": "2020-09-09T05:19:43.151Z",
+    "updatedAt": "2020-10-15T15:21:42.483Z",
+    "__v": 0,
+    "id": "5f5865ef0a43ee0c6a1f135a",
+    "users": ["5f51126ee6a98f7b424edd51"],
+    "permissions": ["5fb1eb1fe553b04dc4ebd08a"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "5fb1eb1fe553b04dc4ebd08a",
+    "type": "application",
+    "controller": "actions",
+    "action": "count",
+    "enabled": false,
+    "policy": "",
+    "createdAt": "2020-11-16T02:59:43.792Z",
+    "updatedAt": "2020-11-16T02:59:44.051Z",
+    "__v": 0,
+    "role": "5fb1eb1fe553b04dc4ebd088"
+  },
+  {
+    "_id": "5fb1eb1fe553b04dc4ebd08c",
+    "type": "application",
+    "controller": "actions",
+    "action": "create",
+    "enabled": false,
+    "policy": "",
+    "createdAt": "2020-11-16T02:59:43.792Z",
+    "updatedAt": "2020-11-16T02:59:44.161Z",
+    "__v": 0,
+    "role": "5fb1eb1fe553b04dc4ebd088"
+  }
+]

@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  main:
+    container_name: container-radar
+    build:
+      context: .
+      target: ${MODE}
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    command: npm run start:dev
+    env_file:
+      - .env
+    networks:
+      - webnet
+    depends_on:
+      - redis
+      - mongodb
+  redis:
+    container_name: redis
+    image: redis:5
+    networks:
+      - webnet
+  mongodb:
+    image: mongo
+    container_name: db_mongo
+    volumes:
+      - mongodata:/data/db
+    networks:
+      - webnet
+    ports:
+      - ${MONGO_PORT}:${MONGO_PORT}
+
+networks:
+  webnet:
+volumes:
+  mongodata:

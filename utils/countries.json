@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "5f9fd6894c9d5478c9fc7b4d",
+    "name": "中国",
+    "countryCode": "056",
+    "createdAt": "2020-11-02T09:51:05.635Z",
+    "updatedAt": "2020-11-02T09:51:05.635Z",
+    "__v": 0,
+    "depos": ["5fa78606079c136efbe2361b"],
+    "users": ["5fa8b4cc079c136efbe23665"],
+    "id": "5f9fd6894c9d5478c9fc7b4d"
+  }
+]
